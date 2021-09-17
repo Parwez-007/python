@@ -4,6 +4,8 @@ def cheese_and_crackers(cheese_count, box_of_crackers):
     print("Man that's enough for a party!")
     print("Get a blanket.\n")
 
+    'This is a test for Push & Pull.'
+
 print("We can just give the function numbers directly:")
 cheese_and_crackers(20, 30)
 
