@@ -1,1 +1,1 @@
-"Test file for pushing and rebasing."
+"No exercises for Exercise 27."
