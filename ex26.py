@@ -25,6 +25,9 @@ print(txt_again.read())
 
 print("Let's practice everything.")
 print('You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.')
+print('Let\'s practice everything.')
+print('You\'d need to know \'bout escapes \
+      with \\ that do \n newlines and \t tabs.')
 
 poem = """
 \tThe lovely world
@@ -66,6 +69,7 @@ formula = secret_formula(start_point)
 print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
+
 people = 20
 cats = 30
 dogs = 15
@@ -83,7 +87,6 @@ if people < dogs:
 if people > dogs:
     print("The world is dry!")
 
-
 dogs += 5
 
 if people >= dogs:
@@ -91,7 +94,6 @@ if people >= dogs:
 
 if people <= dogs:
     print("People are less than or equal to dogs.")
-
 
 if people == dogs:
     print("People are dogs.")
